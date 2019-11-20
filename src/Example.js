@@ -10,6 +10,8 @@ import App from './components/App'
 import AppWithReducer from './components/App2'
 import './index.css'
 
+const isProduction = process.env.NODE_ENV === 'production'
+
 const NoMatch = () => <p>404</p>
 
 function MenuLink({ label, to, activeOnlyWhenExact }) {
@@ -28,7 +30,7 @@ function MenuLink({ label, to, activeOnlyWhenExact }) {
 
 export default function Example() {
   return (
-    <Router>
+    <Router basename={isProduction ? '/demo-hooks-movie-app' : '/'}>
       <div className="breadcrumb">
         <MenuLink activeOnlyWhenExact={true} to="/" label="useState" />
         <MenuLink to="/with-reducer" label="useResucer" />
