@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/demo-hooks-movie-app/static/css/main.85a47941.chunk.css",
+    "main.js": "/demo-hooks-movie-app/static/js/main.be81ab0f.chunk.js",
+    "main.js.map": "/demo-hooks-movie-app/static/js/main.be81ab0f.chunk.js.map",
+    "runtime-main.js": "/demo-hooks-movie-app/static/js/runtime-main.ec8c009b.js",
+    "runtime-main.js.map": "/demo-hooks-movie-app/static/js/runtime-main.ec8c009b.js.map",
+    "static/js/2.2500c3d2.chunk.js": "/demo-hooks-movie-app/static/js/2.2500c3d2.chunk.js",
+    "static/js/2.2500c3d2.chunk.js.map": "/demo-hooks-movie-app/static/js/2.2500c3d2.chunk.js.map",
+    "index.html": "/demo-hooks-movie-app/index.html",
+    "precache-manifest.61e442ebceff503c0e5eafd91beddf56.js": "/demo-hooks-movie-app/precache-manifest.61e442ebceff503c0e5eafd91beddf56.js",
+    "service-worker.js": "/demo-hooks-movie-app/service-worker.js",
+    "static/css/main.85a47941.chunk.css.map": "/demo-hooks-movie-app/static/css/main.85a47941.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ec8c009b.js",
+    "static/js/2.2500c3d2.chunk.js",
+    "static/css/main.85a47941.chunk.css",
+    "static/js/main.be81ab0f.chunk.js"
+  ]
+}
